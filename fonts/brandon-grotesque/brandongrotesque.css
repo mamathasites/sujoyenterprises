@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'brandongrotesque';
+    src: url('fonts/brandongrotesque.eot');
+    src: url('fonts/brandongrotesque.eot') format('embedded-opentype'),
+         url('fonts/brandongrotesque.woff2') format('woff2'),
+         url('fonts/brandongrotesque.woff') format('woff'),
+         url('fonts/brandongrotesque.ttf') format('truetype'),
+         url('fonts/brandongrotesque.svg#brandongrotesque') format('svg');
+}
