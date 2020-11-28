@@ -26,7 +26,7 @@
   <header id="top">
     <nav class="navbar navbar-expand-md fixed-top">
       <div class="container"> <a class="navbar-brand" href="index.html"> <img src="images/sujoy.png" class="img-fluid"
-            width="200">
+            width="150">
           <span style="color: black; font-weight: 1000;letter-spacing:1px;">SUJOY ENTERPRISES</span>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -36,6 +36,7 @@
           <ul class="navbar-nav ml-auto">
             <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
             <li class="nav-item"><a class="nav-link" href="aboutus.html">About Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="prodservices.html">Products & Services</a></li>
             <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
             <li class="nav-item active"><a class="nav-link" href="contact.html">Contact</a></li>
           </ul>
@@ -100,10 +101,28 @@
            </div> -->
         </div>
 
+        <!-- <div id="map" style="width:100%;height:400px;"></div> -->
         <div class="mapouter" style="width:100%;height:400px;">
           <div class="gmap_canvas">
-          <div width="1100" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Flat%20%23%20106%2C%20Meenakshi%20Courts%2C%20Meenakshi%20Estates%2C%20Jeedimetla%2C%20Hyderabad%2C%20Telangana%20500067&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></div>
-            <a href="https://embedgooglemap.net/129/">area</a></div><style>.mapouter{position:relative;text-align:right;height:400px;width:100%;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:100%;}</style></div>
+            <iframe width="600" height="500" id="gmap_canvas"
+              frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            <a href="https://embedgooglemap.net/129/">area</a></div>
+          <style>
+            .mapouter {
+              position: relative;
+              text-align: right;
+              height: 500px;
+              width: 600px;
+            }
+
+            .gmap_canvas {
+              overflow: hidden;
+              background: none !important;
+              height: 500px;
+              width: 600px;
+            }
+          </style>
+        </div>
 
         <div class="contactblock">
           <div class="row clearfix">
@@ -172,6 +191,7 @@
           <ul class="navbar-nav d-inline-block">
             <li class="nav-item pull-left"><a class="nav-link" href="index.html">Home</a></li>
             <li class="nav-item pull-left"><a class="nav-link" href="aboutus.html">About Us</a></li>
+            <li class="nav-item pull-left"><a class="nav-link" href="prodservices.html">Products & Services</a></li>
             <li class="nav-item pull-left"><a class="nav-link" href="gallery.html">Gallery</a></li>
             <li class="nav-item active pull-left"><a class="nav-link" href="contact.html">Contact</a></li>
           </ul>
@@ -210,19 +230,17 @@
       $('.box').matchHeight();
     }
     Equalheight();
-//     let map;
+    // let map;
 
-// function initMap() {
-//   map = new google.maps.Map(document.getElementById("map"), {
-//     center: { lat: -34.397, lng: 150.644 },
-//     zoom: 8,
-//   });
-// }
+    // function initMap() {
+    //   map = new google.maps.Map(document.getElementById("map"), {
+    //     center: { lat: -34.397, lng: 150.644 },
+    //     zoom: 8,
+    //   });
+    // }
   </script>
-<!-- <script
-src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIwzALxUPNbatRBj3Xi1Uhp0fFzwWNBkE&callback=initMap&libraries=&v=weekly"
-defer
-></script> -->
+  <script src="https://maps.google.com/maps?q=Flat%20%23%20106%2C%20Meenakshi%20Courts%2C%20Meenakshi%20Estates%2C%20Jeedimetla%2C%20Hyderabad%2C%20Telangana%20500067&t=&z=13&ie=UTF8&iwloc=&output=embed"
+></script>
 </body>
 
 </html>
